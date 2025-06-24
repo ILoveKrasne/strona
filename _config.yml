@@ -1,0 +1,9 @@
+title: I Love Krasne
+email: kontakt@ilovekrasne.pl
+description: >-
+  Koszulki z nadrukiem "I ❤️ [miejscowość]" – idealne na TikToka.
+baseurl: "/ilovekrasne" 
+url: "" 
+theme: minima
+plugins:
+  - jekyll-feed

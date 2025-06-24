@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I Love Krasne - Koszulki lokalne</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <h1>I ❤️ Krasne</h1>
+    <!-- <p>Koszulki z Twoją miejscowością – i żartobliwym dystansem</p> -->
+  </header>
+  <section>
+    <h2>Opis produktu</h2>
+    <p>Unikalne koszulki z napisem <strong>I ❤️ [Twoja miejscowość]</strong> z przodu, a z tyłu przekreślona nazwa innej miejscowości. Idealne na TikToka, prezent lub jako forma lokalnego humoru!</p>
+  </section>
+  <section class="product">
+    <img src="/assets/images/koszulka_projekt_krasne.jfif" alt="Koszulka">
+    <div class="product-details">
+      <h2>Koszulka I ❤️ Krasne / ~~Malawa~~</h2>
+      <p>Kolory: biały / czarny<br>Rozmiary: S, M, L, XL<br>Cena: 59 zł</p>
+      <p><strong>100% bawełna, nadruk flex</strong></p>
+    </div>
+  </section>
+  <section>
+    <h2>Zamów teraz</h2>
+    <div class="order-form">
+      <form action="https://formsubmit.co/ilovekrasne@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Imię i nazwisko" required>
+        <input type="email" name="email" placeholder="Adres e-mail" required>
+        <input type="text" name="miejscowosc_front" placeholder="Miejscowość z przodu (np. Krasne)" required>
+        <input type="text" name="miejscowosc_back" placeholder="Przekreślona miejscowość z tyłu (np. Mrowla)" required>
+        <select name="rozmiar" required>
+          <option value="">Wybierz rozmiar</option>
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+          <option value="XL">XL</option>
+        </select>
+        <select name="kolor" required>
+          <option value="">Wybierz kolor</option>
+          <option value="Biały">Biały</option>
+          <option value="Czarny">Czarny</option>
+        </select>
+        <textarea name="adres" placeholder="Adres do wysyłki" required></textarea>
+        <button type="submit">Zamawiam!</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 I Love Krasne | TikTok: <a href="https://www.tiktok.com/@ilovekrasne">@ilovekrasne</a></p>
+  </footer>
+</body>
+</html>
