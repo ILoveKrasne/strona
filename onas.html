@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O nas – I ❤️ Krasne</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fefefe;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: #e91e63;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      animation: slideDown 0.8s ease-out;
+    }
+
+    main {
+      padding: 30px 20px;
+      animation: fadeIn 1s ease forwards;
+      opacity: 0;
+    }
+
+    h2 {
+      color: #e91e63;
+      margin-top: 0;
+    }
+
+    .about {
+      max-width: 800px;
+      margin: auto;
+      font-size: 1.1em;
+      line-height: 1.7em;
+    }
+
+    .social-links {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .social-links a {
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 1.4em;
+      color: #e91e63;
+      transition: transform 0.3s ease;
+    }
+
+    .social-links a:hover {
+      transform: scale(1.2);
+    }
+
+    footer {
+      background-color: #e91e63;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes slideDown {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>O nas – I ❤️ Krasne</h1>
+  </header>
+
+  <main>
+    <div class="about">
+      <h2>Kim jesteśmy?</h2>
+      <p>
+        „I ❤️ Krasne” to lokalna inicjatywa, która narodziła się z miłości do naszej miejscowości
+        i... lekkiego żartu z sąsiednich wiosek 😄. Tworzymy oryginalne koszulki i gadżety z lokalnym humorem, pasją i szacunkiem do naszej społeczności.
+      </p>
+
+      <h2>Nasza misja</h2>
+      <p>
+        Chcemy promować lokalną tożsamość z dystansem i uśmiechem. Każda koszulka, którą robimy, to kawałek naszego stylu życia – łączymy kreatywność, jakość i serce.
+      </p>
+    </div>
+
+    <div class="social-links">
+      <h2>Znajdziesz nas tutaj:</h2>
+      <a href="https://www.tiktok.com/@ilovekrasne" target="_blank">🎵 TikTok</a>
+      <a href="https://instagram.com/ilovekrasne" target="_blank">📸 Instagram</a>
+      <a href="mailto:ilovekrasne@gmail.com">📧 E-mail</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 I Love Krasne</p>
+  </footer>
+
+</body>
+</html>
