@@ -122,6 +122,36 @@
 
   <div id="product-details"></div>
 
+<section>
+    <h2>Zamów teraz</h2>
+    <div class="order-form">
+      <form action="https://formsubmit.co/ilovekrasne@gmail.com" method="POST">
+      <input type="hidden" name="_next" value="https://ilovekrasne.netlify.app/">
+        <input type="text" name="name" placeholder="Imię i nazwisko" required>
+        <input type="email" name="email" placeholder="Adres e-mail" required>
+        <input type="text" name="miejscowosc_front" placeholder="Miejscowość z przodu (np. Krasne)" required>
+        <input type="text" name="miejscowosc_back" placeholder="Przekreślona miejscowość z tyłu (np. Mrowla)" required>
+        <select name="rozmiar" required>
+          <option value="">Wybierz rozmiar</option>
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+          <option value="XL">XL</option>
+        </select>
+        <select name="kolor" required>
+          <option value="">Wybierz kolor</option>
+          <option value="Biały">Biały</option>
+<!--           <option value="Czarny">Czarny</option> -->
+        </select>
+        <textarea name="adres" placeholder="Adres do wysyłki" required></textarea>
+        <button type="submit">Zamawiam!</button>
+        
+      </form>
+    </div>
+  </section>
+<p> Po złożeniu zamówienia odezwiemy się mailowo w sprawie płatności i dostawy. Możesz wybrać: odbiór osobisty, paczkomat lub kuriera. Płatność: przelew, blik lub osobiście gotówką.</p>
+ <a href="onas.html">O nas</a>
+  
   <footer>
     <p>&copy; 2025 I Love Krasne | TikTok: <a href="https://www.tiktok.com/@ilovekrasne" style="color: white;">@ilovekrasne</a></p>
   </footer>
@@ -167,34 +197,6 @@
       setTimeout(() => detailsDiv.classList.add('show'), 10);
     }
   </script>
-<section>
-    <h2>Zamów teraz</h2>
-    <div class="order-form">
-      <form action="https://formsubmit.co/ilovekrasne@gmail.com" method="POST">
-      <input type="hidden" name="_next" value="https://ilovekrasne.netlify.app/">
-        <input type="text" name="name" placeholder="Imię i nazwisko" required>
-        <input type="email" name="email" placeholder="Adres e-mail" required>
-        <input type="text" name="miejscowosc_front" placeholder="Miejscowość z przodu (np. Krasne)" required>
-        <input type="text" name="miejscowosc_back" placeholder="Przekreślona miejscowość z tyłu (np. Mrowla)" required>
-        <select name="rozmiar" required>
-          <option value="">Wybierz rozmiar</option>
-          <option value="S">S</option>
-          <option value="M">M</option>
-          <option value="L">L</option>
-          <option value="XL">XL</option>
-        </select>
-        <select name="kolor" required>
-          <option value="">Wybierz kolor</option>
-          <option value="Biały">Biały</option>
-<!--           <option value="Czarny">Czarny</option> -->
-        </select>
-        <textarea name="adres" placeholder="Adres do wysyłki" required></textarea>
-        <button type="submit">Zamawiam!</button>
-        
-      </form>
-    </div>
-  </section>
-<p> Po złożeniu zamówienia odezwiemy się mailowo w sprawie płatności i dostawy. Możesz wybrać: odbiór osobisty, paczkomat lub kuriera. Płatność: przelew, blik lub osobiście gotówką.</p>
- <a href="onas.html">O nas</a>
+
 </body>
 </html>
